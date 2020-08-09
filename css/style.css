@@ -31,11 +31,24 @@
 .hidden {
   display: none; }
 
+.btn {
+  border-radius: 20px; }
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  box-shadow: 0px 0px 10px #2860d8;
+  border-radius: 55px; }
+
 .sub-heading {
   font-family: "Saira Condensed"; }
 
 p {
   font-family: "Roboto"; }
+
+.line {
+  margin-top: 100px;
+  margin-bottom: -80px; }
 
 #navigation .navbar-nav .nav-item {
   font-size: 1.2em;
@@ -44,11 +57,12 @@ p {
   color: black; }
 
 .sidebar-toggler {
+  cursor: pointer;
   position: absolute;
   top: 5%;
   right: 5%; }
   .sidebar-toggler #menu, .sidebar-toggler #clear {
-    color: #28b5d8; }
+    color: #2860d8; }
 
 #about {
   font-family: "Saira Condensed";
@@ -59,7 +73,7 @@ p {
   #about .avatar {
     width: 210px;
     height: 210px;
-    box-shadow: 0px 0px 10px #28b5d8;
+    box-shadow: 0px 0px 10px #2860d8;
     border-radius: 105px; }
   @media (max-width: 576px) {
     #about .avatar {
@@ -70,19 +84,19 @@ p {
   #about .info {
     padding: 10%;
     margin: 0px;
-    background-color: #28b5d8;
+    background-color: #2860d8;
     color: white; }
   #about .extra-space {
     width: 100%;
     height: 200px;
-    background-color: #28b5d8; }
+    background-color: #2860d8; }
 
 .card-container {
   margin-top: -200px; }
   .card-container .card {
     padding: 50px; }
   .card-container .card-title, .card-container .card-icon {
-    color: #28b5d8; }
+    color: #2860d8; }
   .card-container .card-icon {
     font-size: 4.5rem;
     margin-bottom: 0.2em; }
@@ -107,8 +121,6 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
-  #work .card-img-overlay .btn {
-    border-radius: 20px; }
   #work .card-img-overlay .card-title, #work .card-img-overlay .btn {
     display: none; }
 #work .card-img-overlay:hover {
@@ -120,7 +132,7 @@ p {
   font-size: 72px; }
 
 #certifications {
-  background-color: #28b5d8;
+  background-color: #2860d8;
   font-family: "Saira Condensed";
   padding: 0px; }
   #certifications p {
@@ -129,3 +141,32 @@ p {
   #certifications .info {
     color: white;
     padding: 50px; }
+
+footer {
+  background-color: #2860d8;
+  color: white;
+  padding: 20px; }
+  footer .social-icons a {
+    width: 42px;
+    height: 42px;
+    margin: 10px; }
+  footer .social-icons .btn {
+    font-size: 18px;
+    border-radius: 50%; }
+
+.send-icon a {
+  width: 42px;
+  height: 42px;
+  margin: 10px; }
+.send-icon .btn {
+  font-size: 16px;
+  border-radius: 50%; }
+
+.close-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px; }
+
+.education-detail .heading, .experience-detail .heading, .training-details .heading {
+  color: #2860d8;
+  font-family: "Saira Condensed"; }
