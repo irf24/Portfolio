@@ -28,6 +28,9 @@
   font-family: "Anton";
   color: #555555; }
 
+.about {
+  font-family: "Saira Condensed"; }
+
 .hidden {
   display: none; }
 
@@ -65,7 +68,6 @@ p {
     color: #2860d8; }
 
 #about {
-  font-family: "Saira Condensed";
   padding: 0px; }
   #about p {
     font-family: "Roboto";
@@ -167,6 +169,14 @@ footer {
   top: 30px;
   right: 30px; }
 
-.education-detail .heading, .experience-detail .heading, .training-details .heading {
+.education-detail .heading, .experience-detail .heading, .training-detail .heading {
   color: #2860d8;
   font-family: "Saira Condensed"; }
+
+#experience .icon {
+  color: #2860d8;
+  margin-right: 10px; }
+
+.mail-bulk-icon {
+  color: #2860d8;
+  font-size: 72px; }

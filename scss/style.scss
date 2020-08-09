@@ -18,6 +18,9 @@ $font-secondary : 'Roboto';
     font-family: 'Anton' ;
     color:rgba($color:#555, $alpha: 1.0)
 }
+.about{
+    font-family: $font-primary;
+}
 .hidden{
     display:none;
 }
@@ -67,7 +70,6 @@ p{
     }
 }
 #about{
-    font-family: $font-primary;
     padding:0px;
 
     p{
@@ -221,9 +223,21 @@ footer{
     top:30px;
     right:30px;
 }
-.education-detail,.experience-detail,.training-details{
+.education-detail,.experience-detail,.training-detail{
     .heading{
         color:$primary-color;
         font-family:$font-primary;
     }
+}
+
+#experience{
+    .icon{
+        color:$primary-color;
+        margin-right:10px;
+    }
+}
+
+.mail-bulk-icon{
+    color:$primary-color;
+    font-size:72px;
 }
